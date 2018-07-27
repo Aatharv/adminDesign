@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto|Source+Sans+Pro|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="app/assets/css/main.css">
+    <link rel="stylesheet" href="app/assets/css/sidebar-menu.css">
+    <link rel="stylesheet" href="app/assets/css/layout.css">
+    <link rel="stylesheet" href="app/assets/css/header.css">
+  
+
+</head>
+<body ng-controller="demoController as vm">
+    <div ng-include="'app/modules/common/views/layout.html'"></div>
+</body>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+<script src="../bower_components/angular/angular.min.js"></script>
+<script src="../bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="../bower_components/angular-slimscroll-aiska/angular-slimscroll-aiska.js"></script>
+<script src="app/app.js"></script>
+
+<script src="app/modules/common/common.module.js"></script>
+<script src="app/modules/common/controllers/sidebar.controller.js"></script>
+<script src="app/modules/common/directives/sidebar-directive.js"></script>
+
+
+</html>

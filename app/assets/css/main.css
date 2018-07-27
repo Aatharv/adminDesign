@@ -1,0 +1,17 @@
+body {
+    background: rgb(244, 248, 251);
+
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'Merriweather', serif; */
+    font-size: .875rem;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+
+  .pull-right{
+    float: right;
+  }
+  .pull-left{
+    float: left;
+  }
